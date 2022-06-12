@@ -1,0 +1,43 @@
+{
+  "name": "@spmeesseman/eslint-plugin",
+  "version": "1.0.0",
+  "description": "Custom rules for ExtJs projects",
+  "author": "Scott Meesseman",
+  "homepage": "https://github.com/spmeesseman/eslint-plugin/blob/master/README.md",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spmeesseman/eslint-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spmeesseman/eslint-plugin/issues"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^9.1.3"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "publishConfig": {
+      "access": "public"
+  }
+}
